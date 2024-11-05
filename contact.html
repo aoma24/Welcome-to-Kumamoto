@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DECO1016 Website Prototype">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Ayari Omachi">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact - Website Prototype</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bungee&family=Bungee+Shade&family=Nunito:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="other_navbar">
+      <h2 class="nav-brand">KUMAMOTO</h2>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <a>EXPLORE</a>
+          <div class="dropdown-content">
+            <a href="food.html">Food</a>
+            <a href="todo.html">Events/Places</a>
+          </div>
+        </li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <form id="contact-form">
+    <h2 style="font-size: 4vw; text-transform: uppercase; text-align: center; ">
+      <u style="text-decoration: underline; text-decoration-color: #AD9579; text-underline-offset: 1vw;">Have some questions?</u>
+    </h2>
+    <div id="form_content">
+      <ul style="text-align: center;">
+        <li>
+          <label for="fname"><h5>First Name</h5></label>
+          <input id="fname" name="fname" type="text" style="width: 25vw;" required>
+        </li>
+        <li>
+          <label for="lname"><h5>Last Name</h5></label>
+          <input id="lname" name="lname" type="text" style="width: 25vw;" required>
+        </li>
+        <li>
+          <label for="emailaddress"><h5>Email Address</h5></label>
+          <input id="email" name="email" type="text" style="width: 50vw;" required>
+        </li>
+        <li>
+          <label for="others"><h5>Messages/Questions</h5></label>
+          <textarea id="others" name="others" placeholder="Ask us anything you want to know about Kumamoto or your travel plan to Kumamoto!" style="width: 50vw; height: 30vh; " required></textarea>
+        </li>
+      </ul>
+      <button type="submit">SUBMIT</button>
+    </div>
+  </form>
+
+  <footer>
+    <div class="footer-content">
+      <p class="footer-title">KUMAMOTO.INFO</p>
+      <p>kumamotoinfo@gmail.com</p>
+      <p>+80-123-456-789</p>
+    </div>
+    <!-- copied embedded map from Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214588.35994143016!2d130.56015059364606!3d32.820271937044026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f414acf11b4f%3A0x1a51ced19bcf5c31!2sKumamoto%2C%20Japan!5e0!3m2!1sen!2sau!4v1668921553129!5m2!1sen!2sau" width="100%" height="auto" style="border-top: 0.5vh solid #536250; border-bottom: 0.5vh solid #536250;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- section at the bottom with link to social media -->
+    <div class="footer_other-content">
+      <ul class="socials">
+        <li><a href="https://goo.gl/maps/EBeGCEmSNWXvcwZe7"><img src="socials/googlemap.png" class="icons"></a></li>
+        <li><a href="https://youtu.be/C_1aEExODLs"><img src="socials/youtube.png" class="icons"></a></li>
+        <li><a href="https://www.instagram.com/explore/tags/visitkumamoto/"><img src="socials/instagram.png" class="icons"></a></li>
+        <li><a href="https://www.pinterest.com.au/search/pins/?q=kumamoto&rs=typed"><img src="socials/pinterest.png" class="icons"></a></li>
+      </ul>
+      <p>Check out our socials for more!</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

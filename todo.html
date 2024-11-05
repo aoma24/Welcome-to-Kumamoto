@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DECO1016 Website Prototype">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Ayari Omachi">
+  <meta name="viewport" content="width=device-width">
+  <title>To Do - Website Prototype</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bungee&family=Bungee+Shade&family=Nunito:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="other_navbar">
+      <h2 class="nav-brand">KUMAMOTO</h2>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <a>EXPLORE</a>
+          <div class="dropdown-content">
+            <a href="food.html">Food</a>
+            <a href="todo.html">Events/Places</a>
+          </div>
+        </li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-top">
+      <img src="images/todo.jpg" alt="landscape" style="width: 60vw; height: auto; float: left;">
+      <h2 style="color: #FFFDF5;
+    -webkit-text-stroke: 1px #AD9579;">TO DO</h2>
+      <h2>すること</h2>
+    </section>
+
+    <section class="events">
+      <h3><strong>EVENTS</strong></h3>
+      <div class="container">
+        <img id="topic-image" src="images/march.png" alt="march diagram">
+        <div style="padding: 1vw;">
+          <p class="description">The Castle Festival is an event held continuously in autumn and spring at the Kumamoto Castle Ruins, a special historical site. This is an opportunity for many people from Japan and abroad to come into contact with Japanese culture at Kumamoto Castle, which has been cultivated in history and tradition.</p>
+          <div style="text-align: center;">
+            <img id="event-image" src="images/event1a.jpeg" alt="kumamoto castle festival">
+            <img id="event-image" src="images/event1b.jpeg" alt="kumamoto castle festival2">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img id="topic-image" src="images/august.png" alt="august diagram">
+        <div style="padding: 1vw;">
+          <p class="description">Started about 40 years ago to create an event in which all citizens can enjoy participating and is now the largest festival in Kumamoto. The festival’s highlight is the So Odori, during which more than 5,000 people dance together around the city.</p>
+          <div style="text-align: center;">
+            <img id="event-image" src="images/event2a.jpeg" alt="hinokuni festival">
+            <img id="event-image" src="images/event2b.jpeg" alt="hinokuni festival2">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="places">
+      <h3 style="color: #FFFDF5;"><strong>PLACES</strong></h3>
+      <div class="container" style="padding: 3vw; border-radius: 1vw;">
+        <div style="padding-right: 2vw;">
+          <h4 id="place-title">Mount Aso</h4>
+          <p class="description" style="padding: 0;">The largest active vocano in Japan, and among the largest in the world. You can see the huge crater emitting white smoke and the magnificent scenery up close.<br><br><strong>Address</strong>:<br>Takawara, Aso, Kumamoto 869-2223, Japan<br><br><strong>Website</strong>:<a href="http://www.aso.ne.jp/~volcano/eng/">http://www.aso.ne.jp/~volcano/eng/</a></p>
+        </div>
+        <img id="place-image" src="images/mtaso.jpg">
+      </div>
+      <div class="container" style="padding: 3vw; border-radius: 1vw;">
+        <div style="padding-right: 2vw;">
+          <h4 id="place-title">Kumamoto Castle</h4>
+          <p class="description" style="padding: 0;">Japan’s national heritage and the symbol of Kumamoto since it was built 400 years ago.When cherry blossom trees are in full bloom, it attracts over 100,000 visitors.<br><br><strong>Address</strong>:<br>Chuo Ward, Kumamoto, 860-0002, Japan<br><br><strong>Website</strong>:<a href="https://castle.kumamoto-guide.jp/en/">https://castle.kumamoto-guide.jp/en/</a></p>
+        </div>
+        <img id="place-image" src="images/kumamotocastle.jpg">
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p class="footer-title">KUMAMOTO.INFO</p>
+      <p>kumamotoinfo@gmail.com</p>
+      <p>+80-123-456-789</p>
+    </div>
+    <!-- copied embedded map from Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214588.35994143016!2d130.56015059364606!3d32.820271937044026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f414acf11b4f%3A0x1a51ced19bcf5c31!2sKumamoto%2C%20Japan!5e0!3m2!1sen!2sau!4v1668921553129!5m2!1sen!2sau" width="100%" height="auto" style="border-top: 0.5vh solid #536250; border-bottom: 0.5vh solid #536250;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- section at the bottom with link to social media -->
+    <div class="footer_other-content">
+      <ul class="socials">
+        <li><a href="https://goo.gl/maps/EBeGCEmSNWXvcwZe7"><img src="socials/googlemap.png" class="icons"></a></li>
+        <li><a href="https://youtu.be/C_1aEExODLs"><img src="socials/youtube.png" class="icons"></a></li>
+        <li><a href="https://www.instagram.com/explore/tags/visitkumamoto/"><img src="socials/instagram.png" class="icons"></a></li>
+        <li><a href="https://www.pinterest.com.au/search/pins/?q=kumamoto&rs=typed"><img src="socials/pinterest.png" class="icons"></a></li>
+      </ul>
+      <p>Check out our socials for more!</p>
+    </div>
+  </footer>
+  
+</body>
+        
+</html>
